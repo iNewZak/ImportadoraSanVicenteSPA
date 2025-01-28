@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('https://inewzak.github.io/ImportadoraSanVicenteSPA/img/camion_fondo.jpg');
+    background-image: url("https://inewzak.github.io/ImportadoraSanVicenteSPA/img/camion_fondo.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
