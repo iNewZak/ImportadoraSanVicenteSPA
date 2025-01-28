@@ -1,0 +1,11 @@
+.subtitulo {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #116aa5;
+}
+
+.imagen {
+    height: 150px;
+    width: 150px;
+}
