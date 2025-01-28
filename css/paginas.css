@@ -16,10 +16,24 @@ body {
 
 header {
     font-family: Arial, sans-serif;
-    color: black;
+    color: #116aa5;
     font-weight: bold;
     position: relative;
     z-index: 1;
+}
+
+header h6 {
+    margin-left: 5%;
+    font-weight: bold;
+    color: #005892 !important;
+}
+
+header ul a {
+    font-size: 15px;
+}
+
+header a {
+    color: #116aa5 !important;
 }
 
 header img {
@@ -99,4 +113,12 @@ footer div#map {
 
 .final {
     margin-bottom: 100px;
+}
+
+.nombre_empresa {
+    text-decoration: none; 
+    color: #116aa5; 
+    font-size: 25px; 
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
 }
