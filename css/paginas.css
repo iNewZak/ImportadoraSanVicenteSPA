@@ -23,16 +23,40 @@ header {
     margin-bottom: 100px;
 }
 
+header img {
+    height: 100%;
+    width: 150px;
+}
+
 footer {
     font-family: Arial, sans-serif;
-    color: black;
-    font-weight: bold;
+    color: white;
     margin-top: auto;
     padding: 10px 0;
 }
 
-a {
-    color: #333 !important;
+footer a {
+    color: white !important;
+    font-size: 13px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: inherit;
+}
+
+.icon2 {
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: inherit;
 }
 
 .navbar {
@@ -60,5 +84,10 @@ a {
 
 .logo {
     height: 200px;
-    width: 200px;
+    width: 100%;
+}
+
+footer div#map {
+    height: 250px;
+    width: 100%;
 }

@@ -26,13 +26,6 @@
     transition: transform 0.3s ease-in-out;
 }
 
-img {
-    height: 98%;
-    width: 98%;
-    max-height: 100px;
-    max-width: 100px;
-}
-
 @media (max-width: 768px) {
 
 }
