@@ -15,6 +15,7 @@ body {
 }
 
 header {
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
     color: #116aa5;
     font-weight: bold;
@@ -118,7 +119,17 @@ footer div#map {
 .nombre_empresa {
     text-decoration: none; 
     color: #116aa5; 
-    font-size: 25px; 
+    font-size: 20px; 
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.padin{
+    padding: 100px;
+}
+
+@media (max-width: 768px) {
+    .padin{
+        padding: 50px;
+    }
 }
